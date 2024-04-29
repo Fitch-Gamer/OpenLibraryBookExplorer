@@ -32,7 +32,11 @@ namespace OpenLibraryBookExplorer
 
         public class BookInfo
         {
-            //public byte[] Cover;
+            /// <summary>
+            /// includes various other pieces of information that may be used for future developments
+            /// </summary>
+
+            //public byte[] Cover; // byte array version of the cover
             
 
             //public List<string> author_alternative_name;
@@ -128,16 +132,12 @@ namespace OpenLibraryBookExplorer
             _logger = logger;
         }
 
-        // POST api/<SearchFuncController>
         [HttpPost]
         public IActionResult Post([FromBody] SearchModel model)
         {
             _logger.LogInformation("recieved");
 
-            //Task<PostResponse> ReturnedApi =  GetBooks(model.Search);
-
             PostResponse BooksReturned = Task.Run(() => GetBooks(model.Search)).Result;
-             //= ReturnedApi.Result;
             _logger.LogInformation(BooksReturned.ToString());
 
             return new JsonResult(BooksReturned);
@@ -155,8 +155,9 @@ namespace OpenLibraryBookExplorer
             if (response.IsSuccessStatusCode)
             {
                 string jsonString = await response.Content.ReadAsStringAsync();
-                //_logger.LogInformation(jsonString);
                 PostResponse Books = JsonConvert.DeserializeObject<PostResponse>(jsonString);
+
+                /// the below is for if I was sending a byte array rather than a link however it significantly slows the api down due to the number of images that would be retrieved, their size and how slow the openlibrary api is
                 /*
                 HttpClient ImageClient = new HttpClient();
                 ImageClient.BaseAddress = new Uri("https://covers.openlibrary.org/b/olid/");
