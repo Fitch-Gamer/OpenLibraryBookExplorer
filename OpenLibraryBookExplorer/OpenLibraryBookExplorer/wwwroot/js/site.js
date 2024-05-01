@@ -57,7 +57,6 @@ function AJAXfunc(Search) {
 	}).then(response => response.json()).then(data => onsuccess(data));
 }
 function onsuccess(data) {
-	alert(data);
 	const BookDisplay = document.getElementById("BookDisplay")
 
 	let i = 0
