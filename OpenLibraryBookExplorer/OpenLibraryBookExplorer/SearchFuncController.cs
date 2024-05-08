@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
-using System.Reflection;
-using System.Drawing;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -20,30 +17,27 @@ namespace OpenLibraryBookExplorer
             public int numFound;
             public int start;
             public bool numFoundExact;
-            public List<BookInfo> docs;
+            public List<BookInfo>? docs;
             
 
         }
 
         public class SearchModel
         {
-            public string Search { get; set; }
+            public string? Search { get; set; }
         }
 
         public class BookInfo
         {
-            /// <summary>
-            /// includes various other pieces of information that may be used for future developments
-            /// </summary>
 
             //public byte[] Cover; // byte array version of the cover
             
 
             //public List<string> author_alternative_name;
             //public List<string> author_key;
-            public List<string> author_name;
+            public List<string>? author_name;
             //public List<string> contributor;
-            public string cover_edition_key;
+            public string? cover_edition_key;
             //public int cover_i;
             //public List<string> ddc;
             //public string eboook_access;
@@ -75,7 +69,7 @@ namespace OpenLibraryBookExplorer
             //public List<string> publish_year;
             //public List<string> publisher;
             //public List<string> seed;
-            public string title;
+            public string? title;
             //public string title_suggest;
             //public string title_sort;
             //public string type;
@@ -122,7 +116,7 @@ namespace OpenLibraryBookExplorer
             //public List<string> time_key;
 
 
-            public string Cover;
+            public string? Cover;
 
         }
 
@@ -155,7 +149,7 @@ namespace OpenLibraryBookExplorer
             if (response.IsSuccessStatusCode)
             {
                 string jsonString = await response.Content.ReadAsStringAsync();
-                PostResponse Books = JsonConvert.DeserializeObject<PostResponse>(jsonString);
+                PostResponse? Books = JsonConvert.DeserializeObject<PostResponse>(jsonString);
 
                 /// the below is for if I was sending a byte array rather than a link however it significantly slows the api down due to the number of images that would be retrieved, their size and how slow the openlibrary api is
                 /*
