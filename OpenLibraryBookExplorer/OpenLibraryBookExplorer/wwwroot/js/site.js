@@ -63,25 +63,31 @@ function onsuccess(data) {
 	while (BookDisplay.firstChild) {
 		BookDisplay.firstChild.remove();
 	}
-	for (i = 0; i < data.docs.length; i++) {
-
-		let container = document.createElement('div');
-
-		let element = document.createElement('h3');
-		element.textContent = data.docs[i].title;
-		container.appendChild(element);
-
-
-		let Author = document.createElement('small');
-		Author.textContent = data.docs[i].author_name;
-		container.appendChild(Author);
-
-		BookDisplay.appendChild(container);
-
-		let Image = document.createElement('img');
-		//Image.src = "data:image/png;base64," + data.docs[i].Cover; //if using a byte string from server
-		Image.src = data.docs[i].cover;
-		BookDisplay.appendChild(Image);
-
+	if (data.docs.length == 0) {
+		alert("No search results found")
 	}
+	else {
+		for (i = 0; i < data.docs.length; i++) {
+
+			let container = document.createElement('div');
+
+			let element = document.createElement('h3');
+			element.textContent = data.docs[i].title;
+			container.appendChild(element);
+
+
+			let Author = document.createElement('small');
+			Author.textContent = data.docs[i].author_name;
+			container.appendChild(Author);
+
+			BookDisplay.appendChild(container);
+
+			let Image = document.createElement('img');
+			//Image.src = "data:image/png;base64," + data.docs[i].Cover; //if using a byte string from server
+			Image.src = data.docs[i].cover;
+			BookDisplay.appendChild(Image);
+
+		}
+	}
+	
 }
