@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<body>
+    <div id="logincont" class="container">
+        <form id="Search" action="/SearchFunc" method="post">
+            <small></small>
+            <div class="field">
+                <label for="SearchBox" class="SearchPg" style="top:2%;left:5%;position:fixed;color:black; width:10%;">Search</label>
+                <input type="text" class="SearchBox" name="SearchBox" id="SearchBox" style="top:5%;left:5%;position:fixed;width:10%;" placeholder="Search">
+            </div>
+            <input type="submit" value="Submit" class="SearchPg" style="top:10%;left:5%;position:fixed;width:10%;">
+
+        </form>
+    </div>
+
+    <div id="BookDisplay" style="top:5%;left:20%;position:absolute">
+
+    </div>
+
+    <script type="text/javascript">
+        onSearchLoad();
+    </script>
+</body>

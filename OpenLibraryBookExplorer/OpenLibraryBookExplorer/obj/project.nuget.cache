@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "kbCYxYw9K2YOmucc0vE+aQ3tZWtTstftgeOos3TwdlKTbMYp0kFsgcZ51xsdvhP6MwlK7iDjKv9/6bfr/MS4Sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fitch\\Desktop\\Coding\\Projects\\OpenLibraryBookExplorer\\OpenLibraryBookExplorer\\OpenLibraryBookExplorer\\OpenLibraryBookExplorer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fitch\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.18\\microsoft.aspnetcore.jsonpatch.7.0.18.nupkg.sha512",
+    "C:\\Users\\fitch\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.18\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.18.nupkg.sha512",
+    "C:\\Users\\fitch\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\fitch\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\fitch\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\fitch\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\fitch\\.nuget\\packages\\system.drawing.common\\8.0.4\\system.drawing.common.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

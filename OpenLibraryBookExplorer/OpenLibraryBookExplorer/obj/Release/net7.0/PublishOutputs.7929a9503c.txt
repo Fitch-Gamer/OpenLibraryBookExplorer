@@ -1,0 +1,14 @@
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\OpenLibraryBookExplorer.exe
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\OpenLibraryBookExplorer.dll
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\OpenLibraryBookExplorer.deps.json
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\OpenLibraryBookExplorer.runtimeconfig.json
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\OpenLibraryBookExplorer.pdb
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\System.Drawing.Common.dll
+C:\Users\fitch\Desktop\Coding\Projects\OpenLibraryBookExplorer\OpenLibraryBookExplorer\OpenLibraryBookExplorer\obj\Release\net7.0\PubTmp\Out\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
